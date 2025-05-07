@@ -1,0 +1,21 @@
+{
+  "name": "compress_image",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bun ./main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "sharp": "^0.34.1",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.15"
+  }
+}
