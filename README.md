@@ -3,8 +3,6 @@
 **CLI para otimizar e converter imagens**  
 Uma ferramenta simples para redimensionar e converter imagens diretamente pelo terminal.
 
----
-
 ## 📚 Índice
 
 - [🚀 Como usar](#-como-usar)
@@ -15,8 +13,6 @@ Uma ferramenta simples para redimensionar e converter imagens diretamente pelo t
 - [📦 Instalação (via Bun)](#-instalação-via-bun)
 - [❌ Desinstalação](#-desinstalação)
 - [📄 Licença](#-desinstalação)
-
----
 
 ## 🚀 Como usar
 
