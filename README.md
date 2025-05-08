@@ -5,14 +5,38 @@ Uma ferramenta simples para redimensionar e converter imagens diretamente pelo t
 
 ## 📚 Índice
 
+- [🛠 Requisitos](#-requisitos)
+- [📦 Instalação (via Bun)](#-instalação-via-bun)
 - [🚀 Como usar](#-como-usar)
 - [⚙️ Opções](#️-opções)
 - [📂 Exemplos de uso](#-exemplos-de-uso)
 - [📝 Notas](#-notas)
-- [🛠 Requisitos](#-requisitos)
-- [📦 Instalação (via Bun)](#-instalação-via-bun)
 - [❌ Desinstalação](#-desinstalação)
 - [📄 Licença](#-desinstalação)
+
+## 🛠 Requisitos
+
+- [Bun](https://bun.sh/)
+
+## 📦 Instalação (via Bun)
+
+```bash
+# Clone o repositório do projeto
+git clone https://github.com/MatheusThiesen/compress_image.git
+
+# Acesse a pasta do projeto
+cd compress_image
+
+# Instale as dependências usando o Bun
+bun install
+
+# Faça o link do comando compress-image para uso global
+bun link
+
+# Agora você pode usar o comando compress-image globalmente no terminal
+# Exemplo:
+compress-image imagem.jpg -w 600 -F webp
+```
 
 ## 🚀 Como usar
 
@@ -46,18 +70,6 @@ compress-image image.jpg -o ./saida/foto_otimizada.webp -F webp
 
 - Se você não informar o --output, o nome de saída será gerado automaticamente no mesmo diretório com o sufixo \_optimized.
 - Formatos suportados: jpeg, png, webp.
-
-## 🛠 Requisitos
-
-- [Bun](https://bun.sh/)
-
-## 📦 Instalação (via Bun)
-
-```bash
-git clone https://github.com/MatheusThiesen/compress_image.git
-bun install
-bun link
-```
 
 ## ❌ Desinstalação
 

@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "commonjs",
   "bin": {
-    "compress-image": "main.ts"
+    "compress-image": "./bin/compress-image"
   },
   "scripts": {
     "dev": "bun ./main.ts"
