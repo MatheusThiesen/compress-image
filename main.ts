@@ -8,7 +8,7 @@ const program = new Command();
 
 program
   .name("compress-image")
-  .description("CLI para otimizar e converter imagens com sharp")
+  .description("CLI para otimizar e converter imagens")
   .arguments("[file]")
   .option(
     "-w, --width <width>",
@@ -59,7 +59,9 @@ async function optimizeImage() {
   const outputPath = options.output || gerarNomeSaida(filePath, format);
 
   try {
-    let image = sharp(filePath).rotate().resize({ width });
+    let image = sharp(filePath, { limitInputPixels: false })
+      .rotate()
+      .resize({ width });
 
     switch (format) {
       case "jpeg":
