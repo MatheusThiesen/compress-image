@@ -9,7 +9,7 @@
     "compress-image": "./bin/compress-image"
   },
   "scripts": {
-    "dev": "bun ./main.ts"
+    "dev": "bun ./src/main.ts"
   },
   "dependencies": {
     "commander": "^13.1.0",
