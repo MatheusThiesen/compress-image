@@ -56,7 +56,7 @@ async function optimizeImage() {
 
   const width = parseInt(options.width, 10);
   const format = options.format.toLowerCase();
-  const outputPath = options.output || gerarNomeSaida(filePath, format);
+  const outputPath = options.output || generateOutName(filePath, format);
 
   try {
     let image = sharp(filePath, { limitInputPixels: false })
@@ -87,7 +87,7 @@ async function optimizeImage() {
   }
 }
 
-function gerarNomeSaida(origPath: string, format: string): string {
+function generateOutName(origPath: string, format: string): string {
   const ext = path.extname(origPath);
   const nome = path.basename(origPath, ext);
   const dir = path.dirname(origPath);
