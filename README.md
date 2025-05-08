@@ -22,7 +22,7 @@ Uma ferramenta simples para redimensionar e converter imagens diretamente pelo t
 
 ```bash
 # Clone o repositório do projeto
-git clone https://github.com/MatheusThiesen/compress9image.git
+git clone https://github.com/MatheusThiesen/compress-image.git
 
 # Acesse a pasta do projeto
 cd compress-image
