@@ -20,6 +20,24 @@ Uma ferramenta simples para redimensionar e converter imagens diretamente pelo t
 
 ## 📦 Instalação (via Bun)
 
+### 1. Instale o [Bun](https://bun.sh/)
+
+Bun é um runtime moderno para JavaScript/TypeScript.
+
+💻 Linux & macOS:
+
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+🪟 Windows (PowerShell):
+
+```bash
+powershell -c "irm bun.sh/install.ps1 | iex"
+```
+
+### 2. Clone e configure o projeto
+
 ```bash
 # Clone o repositório do projeto
 git clone https://github.com/MatheusThiesen/compress-image.git
@@ -32,9 +50,11 @@ bun install
 
 # Faça o link do comando compress-image para uso global
 bun link
+```
 
-# Agora você pode usar o comando compress-image globalmente no terminal
-# Exemplo:
+Agora você pode usar o comando compress-image globalmente no terminal:
+
+```bash
 compress-image imagem.jpg -w 600 -F webp
 ```
 
