@@ -22,10 +22,10 @@ Uma ferramenta simples para redimensionar e converter imagens diretamente pelo t
 
 ```bash
 # Clone o repositório do projeto
-git clone https://github.com/MatheusThiesen/compress_image.git
+git clone https://github.com/MatheusThiesen/compress9image.git
 
 # Acesse a pasta do projeto
-cd compress_image
+cd compress-image
 
 # Instale as dependências usando o Bun
 bun install
