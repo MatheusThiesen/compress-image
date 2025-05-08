@@ -14,6 +14,7 @@ Uma ferramenta simples para redimensionar e converter imagens diretamente pelo t
 - [🛠 Requisitos](#-requisitos)
 - [📦 Instalação (via Bun)](#-instalação-via-bun)
 - [❌ Desinstalação](#-desinstalação)
+- [📄 Licença](#-desinstalação)
 
 ---
 
@@ -66,3 +67,7 @@ bun link
 ```bash
 bun unlink
 ```
+
+## 📄 Licença
+
+MIT © Matheus Reis Thiesen
