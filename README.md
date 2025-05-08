@@ -58,6 +58,7 @@ compress-image image.jpg -o ./saida/foto_otimizada.webp -F webp
 ## 📦 Instalação (via Bun)
 
 ```bash
+git clone https://github.com/MatheusThiesen/compress_image.git
 bun install
 bun link
 ```
